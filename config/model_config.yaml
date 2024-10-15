@@ -1,0 +1,11 @@
+vocab_size: null
+num_blocks: 8
+embed_size: 256
+context_size: 256
+feed_forward_expansion: 4
+num_heads: 8
+dropout_attention_p: 0.1
+dropout_projection_p: 0.1
+feed_forward_dropout_p: 0.1
+embed_dropout_p: 0.1
+bidirectional: false

@@ -1,0 +1,12 @@
+runs/*
+**/__pycache__/**
+data/raw/*
+venv*
+
+wandb
+flagged
+tmp/*
+**/.DS_Store
+
+# inlcude .gitkeep
+!**/.gitkeep
