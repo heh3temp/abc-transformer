@@ -2,7 +2,6 @@ from datetime import datetime
 import os
 
 import wandb
-import torch
 from torch.utils.data.dataloader import DataLoader
 
 from modules.datasets import ABCDataset, TransformerTrainDataset
@@ -35,7 +34,6 @@ def main():
     ckpt_path = run_path + "checkpoints/"
     os.mkdir(ckpt_path)
     
-    # dataset = ABCDataset('./data/processed/merged.abc')
     dataset = ABCDataset("data/processed/notthingam_database.abc")
     corpus = dataset.corpus
     

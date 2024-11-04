@@ -2,7 +2,8 @@ runs/*
 **/__pycache__/**
 data/raw/*
 venv*
-
+experiment/*
+ai_composer.mp4
 wandb
 flagged
 tmp/*
